@@ -1,0 +1,12 @@
+{
+  "name": "shelfs-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Shelfs cloud storage app",
+  "scripts": {
+    "start": "http-server . -p 3001 -c-1",
+    "dev": "http-server . -p 3001 -c-1"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
