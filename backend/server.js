@@ -40,7 +40,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Session configuration
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'cloud-storage-secret-key',
+  secret: process.env.SESSION_SECRET || 'shelfs-secret-key',
   resave: false,
   saveUninitialized: false,
   cookie: { 
@@ -79,5 +79,5 @@ app.use((err, req, res, next) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Shelfs server running on port ${PORT}`);
 });
