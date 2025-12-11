@@ -1,4 +1,4 @@
-kkservices:
+services:
   # Web Service
   - type: web
     name: shelfs-app

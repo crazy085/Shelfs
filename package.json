@@ -1,0 +1,14 @@
+{
+  "name": "shelfs",
+  "version": "1.0.0",
+  "description": "Personal cloud storage system",
+  "scripts": {
+    "install-deps": "cd backend && npm install && cd ../frontend && npm install",
+    "start": "cd backend && npm start"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
+
